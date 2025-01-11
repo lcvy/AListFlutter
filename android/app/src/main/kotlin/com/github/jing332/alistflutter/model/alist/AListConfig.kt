@@ -42,7 +42,7 @@ data class AListConfig(
         @SerialName("name")
         val name: String = "",
         @SerialName("password")
-        val password: String = "",
+        val password: String = "wer@97300",
         @SerialName("port")
         val port: Int = 0, // 0
         @SerialName("ssl_mode")
