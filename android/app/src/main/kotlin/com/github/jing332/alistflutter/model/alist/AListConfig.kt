@@ -41,8 +41,6 @@ data class AListConfig(
         val host: String = "",
         @SerialName("name")
         val name: String = "",
-        @SerialName("password")
-        val password: String = "wer@97300",
         @SerialName("port")
         val port: Int = 0, // 0
         @SerialName("ssl_mode")
